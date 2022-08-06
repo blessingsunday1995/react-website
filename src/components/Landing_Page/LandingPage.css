@@ -1,0 +1,31 @@
+.landing-conatiner{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-between;
+   
+}
+
+.landing-text{
+    color: #fff;
+    padding-top: 100px;
+    
+
+}
+
+.landing-text h2{
+    font-size: 40px;
+}
+
+.landing-text h5{
+    font-size: 20px;
+}
+
+.landing-img img{
+    height: 400px;
+}
+
+.landing-btn{
+    margin-top: 10px;
+}

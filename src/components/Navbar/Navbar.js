@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import {Icon} from 'react-icons-kit'
 import {menu} from 'react-icons-kit/feather/menu'
 import {x} from 'react-icons-kit/feather/x'
+import logo from '../../images/hcode-logo.png'
 
 function Navbar() {
 
@@ -14,8 +15,9 @@ function Navbar() {
 
   return (
 
+    <div className='conatiner'>
     <nav className={toggle?'navbar expanded':'navbar'}>
-    <h2 className='logo'>dolla</h2>
+   <a href='#home'><img src={logo} className='logo'/></a>
     <div className='toggle-icon' onClick={handleToggle}>
       {toggle?<Icon icon={x} size={28}/>:<Icon icon={menu} size={28}/>}
     </div>
@@ -28,7 +30,7 @@ function Navbar() {
     </ul>
 </nav>
 
-
+</div>
 
   
   )

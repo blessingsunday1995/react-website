@@ -9,7 +9,7 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
+    --color-bg: #000000;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
@@ -20,7 +20,7 @@
 
     --containter-width-lg: 75%;
     --containter-width-md: 86%;
-    --containter-width-sm: 90%;
+    --containter-width-sm: 100%;
 }
 
 html{
@@ -31,6 +31,12 @@ html{
     display: none;
 }
 
+body{
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+}
+
 a{
     transition: var(--transition);
     color:var(--color-primary);
@@ -38,4 +44,35 @@ a{
 a:hover{
     color: var(--color-white);
     border-bottom: 1px solid #fff;
+}
+
+section{
+    height: 200px;
+    margin-top:  15px;
+    text-align: center;
+}
+
+
+.conatiner{
+    width: var(--containter-width-lg);
+    margin: 0 auto;
+}
+
+.btn{
+
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover{
+
+    background: var(--color-white);
+    color: var(--color-bg );
+    border-color: transparent;
 }
