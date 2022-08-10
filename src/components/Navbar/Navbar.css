@@ -1,11 +1,15 @@
 
 
-  .wrapper{
-    width: 100%;
-    max-width: 1440px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin: 0 auto;
+  .conatiner-nav {
+
+    background: #000;
+width: var(--containter-width-lg);
+    display: block;
+  border-bottom: 1px solid var(--color-primary);
+    position: fixed;
+    display: flex;
+    gap: 0.8rem ;
+  
   }
   
   .navbar{
@@ -13,6 +17,7 @@
     height: 80px;
     padding: 10px;
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
   }
@@ -37,8 +42,17 @@
   .navbar .toggle-icon{
     display: none;
   }
-  
+  .links.social-nav{
+    display: flex;
+
+    gap: 10px;
+  }
   @media(max-width: 768px){
+
+    .conatiner-nav {
+   left: 0;
+   width: var(--containter-width-sm);
+    }
     .navbar{
       position: relative;
       transition: 0.5s all ease-in-out;
@@ -47,8 +61,13 @@
     width: var( --containter-width-sm);
   }
     .navbar.expanded{
-      height: 100vh;
+      height: 700px;
+      display: flex;
+      width: 100%;
+      gap: 10px;
     }
+
+  
   
  .navbar.expanded .links{
       position: absolute;
@@ -61,7 +80,15 @@
       align-items: center;
       opacity: 1;
     }
-  
+    .navbar.expanded .social-nav{
+      flex-direction: row;
+      margin-top: 330px;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+     
+     }
+
     .navbar.expanded .links li{
       margin: 15px 0;
       font-size: 24px;

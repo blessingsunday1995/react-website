@@ -10,8 +10,8 @@
 
 :root{
     --color-bg: #000000;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg-variant: #615c5cab;
+    --color-primary: #FFF100;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
     --color-light: rgba(255,255,255, 0.6);
@@ -35,6 +35,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    position: absolute;
 }
 
 a{
@@ -47,8 +48,8 @@ a:hover{
 }
 
 section{
-    height: 200px;
-    margin-top:  15px;
+    height: 1000px;
+margin-bottom: 30px;
     text-align: center;
 }
 
@@ -56,6 +57,7 @@ section{
 .conatiner{
     width: var(--containter-width-lg);
     margin: 0 auto;
+    
 }
 
 .btn{

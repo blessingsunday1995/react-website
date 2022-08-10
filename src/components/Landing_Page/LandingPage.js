@@ -13,7 +13,6 @@ function LandingPage() {
 <a href='#' className='btn landing-btn'>Get Started</a>
 </div>
 
-
 <div className='landing-img'>
 <img src={Lad}/>
 

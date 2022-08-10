@@ -1,7 +1,7 @@
 .landing-conatiner{
     display: flex;
     margin: auto;
-    gap: 10px;
+    gap: 170px;
     padding: 20px;
     justify-content: space-between;
    
@@ -9,7 +9,7 @@
 
 .landing-text{
     color: #fff;
-    padding-top: 100px;
+    padding-top: 150px;
     
 
 }
@@ -23,9 +23,31 @@
 }
 
 .landing-img img{
-    height: 400px;
+    padding-top: 150px;
+    height: 700px;
+   
 }
 
 .landing-btn{
     margin-top: 10px;
 }
+
+
+@media(max-width: 768px){
+
+.conatiner{
+    width: var(--containter-width-sm);
+}
+.landing-conatiner{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.landing-img img{
+    height: 500px;
+    padding: 5px;
+   
+}
+
+
+  }
