@@ -11,6 +11,8 @@
     margin: auto;
 }
 
+
+
 .about-btn{
     margin-top: 10px;
 }
@@ -19,7 +21,8 @@
 
    .conatiner{
 width: var(--containter-width-sm);
-    }
+margin: auto;
+}
 
     .about-conatiner{
     flex-direction: column;
@@ -28,5 +31,36 @@ width: var(--containter-width-sm);
        
         }
     
-    
+    .about-image img{
+margin-right: 50px;
+border-radius: 40px;
+
+    }
+    .about-heading h1{
+        font-size: 60px;
+    }
+
+    .about-heading h5{
+        font-size: 30px;
+    }
+    section{
+        height: max-content;
+       
+    }
       }
+
+      @media screen and (max-width: 1024px) {
+
+        .conatiner{
+            width: var(--containter-width-md);
+        }
+    
+    
+        .about-conatiner{
+            flex-direction: column;
+             
+                gap: 30px;
+               
+                }
+        
+    }
