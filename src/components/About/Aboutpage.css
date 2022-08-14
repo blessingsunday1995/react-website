@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+.about-image img{
+        border-radius: 40px;
+    
+        }
 
 
 .about-btn{
@@ -30,11 +34,21 @@ margin: auto;
         gap: 30px;
        
         }
-    
-    .about-image img{
-margin-right: 50px;
-border-radius: 40px;
 
+        .about-btn{
+            
+            margin-top: 10px;
+            width: 300px;
+            height: 90px;
+            padding: 17px;
+            font-size: 30px;
+            border-radius: 30px;
+        }
+    
+   
+
+    .about-text p{
+font-size: 35px;
     }
     .about-heading h1{
         font-size: 60px;
@@ -62,5 +76,14 @@ border-radius: 40px;
                 gap: 30px;
                
                 }
-        
+                .about-btn{
+            
+                    margin-top: 10px;
+                    width: 200px;
+                    height: 80px;
+                    padding: 17px;
+                    font-size: 30px;
+                    border-radius: 30px;
+                }
+                
     }

@@ -1,8 +1,8 @@
 import React from 'react'
 import AboutImg from '../../images/hcode-about.png'
-import './About_page.css'
+import './Aboutpage.css'
 
-function About_Page() {
+function AboutPage() {
   return (
     <section id='about'>
    
@@ -17,7 +17,7 @@ function About_Page() {
       </div>
   <div className='about-conatiner'>
 <div className='about-image'>
-<img src={AboutImg} />
+<img src={AboutImg} alt="" />
 
 </div>
 
@@ -50,4 +50,4 @@ Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam
   )
 }
 
-export default About_Page
+export default AboutPage
