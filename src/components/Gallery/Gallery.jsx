@@ -23,7 +23,7 @@ function Gallery() {
 <div className="nav">
 <ul>
   <li><Link to='/b'>Traditional Wear</Link></li>
-  <li><Link to='/a'>bada</Link></li>
+  <li><Link to='/a'>Agbada</Link></li>
   <li><Link to='/d'>Suit</Link></li>
   <li><Link to='/c'>Shirt</Link></li>
 </ul>
