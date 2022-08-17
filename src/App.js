@@ -1,16 +1,29 @@
 import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/Landing_Page/LandingPage";
-import About_Page from "./components/About/AboutPage";
+import AboutPage from "./components/About/AboutPage";
 import Service from "./components/Service/Service";
+import Gallery from "./components/Gallery/Gallery";
+
+
+
 function App() {
   return (
-    <div className="App">
+
+  
+     <div className="App">
+          
+      
      <Navbar/>
      <LandingPage/>
-     <About_Page/>
+     <AboutPage/>
      <Service/>
+<Gallery/>
+
+
      
-    </div>
+    </div> 
+  
+  
   );
 }
 

@@ -28,8 +28,9 @@ function Navbar() {
       <li>  <a href="#">Home</a></li>
       <li>  <a href="#about">About</a></li>
       <li> <a href="#service">Services</a></li>
+      <li>  <a href="#gallery">Gallery</a></li>
       <li>  <a href="#">Contact</a></li>
-      <li>  <a href="#">Sign Up</a></li>
+     
    
     </ul>
     
