@@ -5,9 +5,13 @@ import {Link, Route,Routes} from 'react-router-dom'
 import Agbada from './Agbada/Agbada'
 import Shirt from './Shirt/Shirt'
 import Suit from './Suit/Suit'
+import { useState } from 'react'
 import Traditional from './Traditional/Traditional'
 
 function Gallery() {
+
+  const [activeNav , setActiveNav]= useState('/b')
+
   return (
  
     <section id='gallery'>
@@ -22,10 +26,25 @@ function Gallery() {
             </div>
 <div className="nav">
 <ul>
-  <li><Link to='/b'>Traditional Wear</Link></li>
-  <li><Link to='/a'>Agbada</Link></li>
-  <li><Link to='/d'>Suit</Link></li>
-  <li><Link to='/c'>Shirt</Link></li>
+  <li  onClick={()=>setActiveNav('/b')}
+     className={activeNav === '/b' ? 'active' : ''}><Link  to='/b'>Traditional</Link></li>
+
+
+  <li  onClick={()=>setActiveNav('/a')}
+     className={activeNav === '/a' ? 'active' : ''}><Link to='/a'>Agbada</Link></li>
+
+
+
+  <li  onClick={()=>setActiveNav('/d')}
+     className={activeNav === '/d' ? 'active' : ''}><Link to='/d'>Suit</Link></li>
+
+
+
+  <li  onClick={()=>setActiveNav('/c')}
+     className={activeNav === '/c' ? 'active' : ''}><Link to='/c'>Shirt</Link></li>
+
+
+
 </ul>
 
 </div>

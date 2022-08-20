@@ -10,4 +10,84 @@
     display: flex;
     gap: 10px;
     justify-content: space-around;
+    background: rgb(74, 78, 78);
+    border-radius: 20px;
+    padding: 10px;
 }
+
+.nav ul li a:hover{
+    color: var(--color-white);
+    border-bottom: none;
+}
+.nav ul li{
+
+    font-size: 30px;
+          
+          }
+
+
+
+                  .nav ul li.active{
+
+                   border-bottom: 3px solid red;
+                          
+                          }
+
+@media(max-width: 768px){
+
+    .conatiner{
+        width: var(--containter-width-sm);
+    }
+   
+
+    .gallery-heading h1{
+        font-size: 60px;
+       
+    }
+
+    .gallery-heading h5{
+        font-size: 30px;
+       
+    }
+    
+        .nav{
+            background: rgb(74, 78, 78);
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+        .nav ul li{
+
+  font-size: 30px;
+         
+        }
+    
+      }
+    
+    
+      @media screen and (max-width: 1024px) {
+    
+        .conatiner{
+            width: var(--containter-width-md);
+        }
+        .srvices-conatiner{
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+         }
+     
+         .gallery-heading h1{
+             font-size: 60px;
+            
+         }
+     
+         .gallery-heading h5{
+             font-size: 30px;
+            
+         }
+         
+        
+    
+   
+    
+    }
