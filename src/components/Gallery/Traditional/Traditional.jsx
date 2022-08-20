@@ -45,7 +45,7 @@ function Traditional() {
 data.map(({id, image, title, github ,demo})=>{
 return(
  
-  <div key={id}className="card1">
+  <div key={id}className="traditional-card">
 
   <img src={image} alt="" />
 </div>

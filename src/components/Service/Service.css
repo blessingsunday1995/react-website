@@ -15,6 +15,13 @@
     border-radius: 30px;
     margin: 10px;
     padding-top: 10px;
+    background: var( --color-bg-variant);
+    transition: var( --transition);
+}
+
+
+.card:hover{
+    background: transparent;
 }
 
 .card img{

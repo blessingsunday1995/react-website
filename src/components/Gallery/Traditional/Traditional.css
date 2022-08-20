@@ -8,7 +8,7 @@
 }
          
          
-         .card1{
+         .traditional-card{
            flex-grow: 1;
             width: 400px;
             border-radius: 30px;
@@ -16,7 +16,7 @@
            
         }
     
-        .card1 img{
+        .traditional-card img{
     
             border-radius: 20px 20px 20px 20px;
             width: 100%;
