@@ -16,20 +16,24 @@
 
 .landing-text h2{
     font-size: 40px;
+    animation: slideFromLeft 1s ease-in;
 }
 
 .landing-text h5{
     font-size: 20px;
+    animation: slideFromLeft 1s ease-in;
 }
 
 .landing-img img{
     padding-top: 150px;
     height: 700px;
+    animation: slideFromRight 1s ease-in;
    
 }
 
 .landing-btn{
     margin-top: 10px;
+    animation: slideFromBottom 1s ease-in;
 }
 
 
@@ -69,6 +73,52 @@
 
 
   }
+
+
+
+
+
+
+
+
+  @keyframes slideFromLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    }
+    
+    @keyframes slideFromRight{
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(0);
+        }
+        }
+    
+        @keyframes slideFromTop{
+            0%{
+                transform: translateY(- 100%);
+            }
+            100%{
+                transform: translateX(0);
+            }
+            }
+    
+    
+    
+            @keyframes slideFromBottom{
+                0%{
+                    transform: translateY(100%);
+                }
+                100%{
+                    transform: translateX(0);
+                }
+                }
+
 
 
   @media screen and (max-width: 1024px) {

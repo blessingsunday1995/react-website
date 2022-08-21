@@ -4,6 +4,8 @@ import tr2 from './../../../images/Traditional/tra2.png'
 import tr3 from './../../../images/Traditional/tra3.png'
 import tr4 from './../../../images/Traditional/tradi.png'
 
+import {motion} from "framer-motion"
+
 
 
 const data =[
@@ -20,7 +22,7 @@ const data =[
   },
   {
     id: 3,
-    image: tr3,
+    image: tr3, 
   },
   {
     id: 4,
@@ -37,7 +39,12 @@ const data =[
 
 function Traditional() {
   return (
-        <div className='traditional-conatiner'>
+        <motion.div
+         className='traditional-conatiner'
+          initial={{opacity: 0}}
+          animate={{opacity: 1}}
+          exit={{opacity: 0}}
+         >
 
 {
 
@@ -56,7 +63,7 @@ return(
 
 })
 } 
-</div>
+</motion.div>
   )
 
 }

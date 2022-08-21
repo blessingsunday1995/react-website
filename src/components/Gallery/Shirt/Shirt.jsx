@@ -4,7 +4,7 @@ import sh1 from './../../../images/Shirt/sh1.png'
 import sh2 from './../../../images/Shirt/sh2.png'
 import sh3 from './../../../images/Shirt/shirt.png'
 
-
+import {motion} from "framer-motion"
 
 
 const data =[
@@ -37,7 +37,12 @@ const data =[
 
 function Shirt() {
   return (
-    <div className='shirt-conatiner'>
+    <motion.div 
+    className='shirt-conatiner'
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
 
     {
     
@@ -56,7 +61,7 @@ function Shirt() {
     
     })
     } 
-    </div>
+    </motion.div>
   )
 }
 

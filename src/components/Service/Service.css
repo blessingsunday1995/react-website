@@ -14,14 +14,18 @@
     width: max-content;
     border-radius: 30px;
     margin: 10px;
+    transition: transform .2s;
     padding-top: 10px;
-    background: var( --color-bg-variant);
+  
     transition: var( --transition);
 }
 
 
 .card:hover{
-    background: transparent;
+    background: var( --color-bg-variant);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
 
 .card img{
@@ -73,7 +77,7 @@
     
       }
     
-    
+     
       @media screen and (max-width: 1024px) {
     
         .conatiner{

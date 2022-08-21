@@ -4,7 +4,7 @@ import './Suit.css'
 import siut1 from './../../../images/Suit/siut.png'
 import siut2 from './../../../images/Suit/su4.jpeg'
 
-
+import {motion} from "framer-motion"
 
 
 const data =[
@@ -31,7 +31,12 @@ const data =[
 
 function Suit() {
   return (
-    <div className='suit-conatiner'>
+    <motion.div
+     className='suit-conatiner'
+     initial={{opacity: 0}}
+     animate={{opacity: 1}}
+     exit={{opacity: 0}}
+     >
 
 {
 
@@ -50,7 +55,7 @@ return(
 
 })
 } 
-</div>
+</motion.div>
   )
 }
 

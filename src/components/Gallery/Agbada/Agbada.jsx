@@ -5,7 +5,7 @@ import aga1 from './../../../images/Agada/aga1.png'
 import aga2 from './../../../images/Agada/aga2.png'
 import aga3 from './../../../images/Agada/aga3.png'
 import aga4 from './../../../images/Agada/agada.png'
-
+import {motion} from "framer-motion"
 
 
 const data =[
@@ -41,7 +41,12 @@ const data =[
 
 function Agbada() {
   return (
-    <div className='agbada-conatiner'>
+    <motion.div 
+    className='agbada-conatiner'
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
 
 {
 
@@ -60,7 +65,7 @@ return(
 
 })
 } 
-</div>
+</motion.div>
   )
 }
 

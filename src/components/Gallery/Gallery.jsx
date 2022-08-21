@@ -1,6 +1,6 @@
 import './Gallery.css'
 
-import {Link, Route,Routes} from 'react-router-dom'
+import {Link, Route,Routes,useLocation} from 'react-router-dom'
 
 import Agbada from './Agbada/Agbada'
 import Shirt from './Shirt/Shirt'
@@ -8,8 +8,12 @@ import Suit from './Suit/Suit'
 import { useState } from 'react'
 import Traditional from './Traditional/Traditional'
 
+import {AnimatePresence} from "framer-motion"
+
+
 function Gallery() {
 
+const location = useLocation()
   const [activeNav , setActiveNav]= useState('/b')
 
   return (
@@ -48,13 +52,15 @@ function Gallery() {
 </ul>
 
 </div>
-<Routes> 
+<AnimatePresence>
+<Routes location={location} key={location.pathname}> 
   <Route path='/a' element={<Agbada/>}/>
   <Route path='/b' element={<Traditional/>}/>
   <Route path='/c' element={<Shirt/>}/>
   <Route path='/d' element={<Suit/>}/>
   
-   </Routes>
+   </Routes> 
+   </AnimatePresence>
 
         </div>
         </section>
