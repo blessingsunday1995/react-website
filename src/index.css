@@ -58,7 +58,7 @@ margin-bottom: 50px;
     width: var(--containter-width-lg);
     margin: 0 auto;
     
-    transition: var(--transition);
+ 
 }
 
 .btn{
@@ -86,4 +86,31 @@ h1,h2,h3,h4,h5{
 
 h1{
     font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .conatiner{
+        width: var(--containter-width-md);
+    }
+
+    section{
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .conatiner{
+        width: var(--containter-width-sm);
+    }
+
+    section > h2{
+        margin-bottom: 5px;
+    }
+    
 }
