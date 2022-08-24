@@ -15,7 +15,7 @@ function App() {
           
       
      <Navbar/>
-     {/* <LandingPage/> */}
+     <LandingPage/>
      {/* <AboutPage/> */}
      {/* <Service/> */}
 {/* <Gallery/> */}
