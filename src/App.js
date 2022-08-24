@@ -11,18 +11,18 @@ function App() {
   return (
 
   
-     <div className="App">
+     <>
           
       
      <Navbar/>
-     <LandingPage/>
-     <AboutPage/>
-     <Service/>
-<Gallery/>
-<Contact/>
+     {/* <LandingPage/> */}
+     {/* <AboutPage/> */}
+     {/* <Service/> */}
+{/* <Gallery/> */}
+{/* <Contact/> */}
 
      
-    </div> 
+    </> 
   
   
   );
