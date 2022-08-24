@@ -1,9 +1,8 @@
 .landing-conatiner{
     display: flex;
     margin: auto;
-    gap: 170px;
-    padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    height: 800px;
    
 }
 
@@ -36,6 +35,50 @@
     animation: slideFromBottom 1s ease-in;
 }
 
+  /* @keyframes slideFromLeft {
+      0% {
+          transform: translateX(-100%);
+      }
+
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+  @keyframes slideFromRight {
+      0% {
+          transform: translateX(100%);
+      }
+
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+  @keyframes slideFromTop {
+      0% {
+          transform: translateY(- 100%);
+      }
+
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+
+
+  @keyframes slideFromBottom {
+      0% {
+          transform: translateY(100%);
+      }
+
+      100% {
+          transform: translateX(0);
+      }
+  } */
+
+
+
 
 @media(max-width: 768px){
 
@@ -45,23 +88,25 @@
 .landing-conatiner{
     flex-direction: column;
     gap: 50px;
+    padding: 20px;
 }
 
-.landing-text h2{
+ .landing-text h2{
     font-size: 50px;
 }
 
 .landing-text h5{
     font-size: 40px;
-}
+} 
 
 .landing-btn{
     margin-top: 10px;
-    width: 300px;
-    height: 90px;
+    width: 50%;
+    height: fit-content;
     padding: 17px;
-    font-size: 30px;
-    border-radius: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    
 }
 
 
@@ -81,46 +126,9 @@
 
 
 
-  @keyframes slideFromLeft{
-    0%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(0);
-    }
-    }
-    
-    @keyframes slideFromRight{
-        0%{
-            transform: translateX(100%);
-        }
-        100%{
-            transform: translateX(0);
-        }
-        }
-    
-        @keyframes slideFromTop{
-            0%{
-                transform: translateY(- 100%);
-            }
-            100%{
-                transform: translateX(0);
-            }
-            }
-    
-    
-    
-            @keyframes slideFromBottom{
-                0%{
-                    transform: translateY(100%);
-                }
-                100%{
-                    transform: translateX(0);
-                }
-                }
 
 
-
+/* 
   @media screen and (max-width: 1024px) {
 
     .conatiner{
@@ -162,4 +170,4 @@
 
 }
 
-}
+} */

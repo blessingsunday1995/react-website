@@ -8,15 +8,15 @@ function LandingPage() {
     <div className='conatiner landing-conatiner'>
 
 <div className='landing-text'>
-<h2>Build Your Landing Page with Bootstlander</h2>
+<h3>Build Your Landing Page with Bootstlander</h3>
 <h5>We are team of telened designers making website with bootstrap</h5>
 <a href='#' className='btn landing-btn'>Get Started</a>
 </div>
 
-<div className='landing-img'>
+{/* <div className='landing-img'>
 <img src={Lad}/>
 
-</div>
+</div> */}
 
     </div>
 

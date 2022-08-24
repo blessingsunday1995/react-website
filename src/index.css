@@ -35,7 +35,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    position: absolute;
+    
 }
 
 a{
@@ -89,6 +89,17 @@ h1{
 }
 
 
+@media screen and (max-width: 768px) {
+
+    .conatiner {
+        width: var(--containter-width-sm);
+        padding: 0 20px 0 20px;
+    }
+
+
+
+}
+
 @media screen and (max-width: 1024px) {
 
     .conatiner{
@@ -102,15 +113,3 @@ h1{
 }
 
 
-
-@media screen and (max-width: 768px) {
-
-    .conatiner{
-        width: var(--containter-width-sm);
-    }
-
-    section > h2{
-        margin-bottom: 5px;
-    }
-    
-}
