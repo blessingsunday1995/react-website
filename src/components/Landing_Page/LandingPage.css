@@ -23,9 +23,14 @@
     animation: slideFromLeft 1s ease-in;
 }
 
+.landing-img{
+
+    display: flex;
+    flex-direction: column;
+}
+
 .landing-img img{
     padding-top: 150px;
-    height: 700px;
     animation: slideFromRight 1s ease-in;
    
 }
@@ -109,10 +114,15 @@
     
 }
 
+.landing-img{
+   width: 100%;
+}
 
 .landing-img img{
-    height: 500px;
+
     padding: 5px;
+    height: 500px;
+    width: 100%;
    
 }
 
