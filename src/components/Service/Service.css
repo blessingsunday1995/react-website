@@ -10,8 +10,8 @@
 
 .card{
     border: 1px solid var( --color-primary);
-    height: max-content;
-    width: max-content;
+    width: fit-content;
+   
     border-radius: 30px;
     margin: 10px;
     transition: transform .2s;
@@ -31,7 +31,8 @@
 .card img{
     margin-top: 20px;
     border-radius: 20px 20px 20px 20px;
-    
+    height: 300px;
+   
 
 }
 
