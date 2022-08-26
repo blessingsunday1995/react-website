@@ -94,6 +94,8 @@
     flex-direction: column;
     gap: 50px;
     padding: 20px;
+    height: fit-content;
+   
 }
 
  .landing-text h2{
