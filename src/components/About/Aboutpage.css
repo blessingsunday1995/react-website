@@ -13,8 +13,14 @@
 
 .about-image img{
         border-radius: 40px;
+        height: 400px;
     
         }
+
+                .about-text p {
+                    font-size: 20px;
+                    text-align: justify;
+                }
 
 
 .about-btn{
@@ -26,13 +32,13 @@
 
      .conatiner.about-conatiner {
          width: var(--containter-width-md);
+         
         
      }
 
 
          .about-contect-conatiner {
          flex-direction: column;
-
          gap: 30px;
 
      }
@@ -77,17 +83,21 @@ margin: auto;
         .about-btn{
             
             margin-top: 10px;
-            width: 300px;
-            height: 90px;
+            width: 50%;
+            height: fit-content;
             padding: 17px;
-            font-size: 30px;
+            font-size: 20px;
             border-radius: 30px;
         }
     
+        .about-heading h5{
+            display: none;
+        }
    
 
     .about-text p{
-font-size: 35px;
+        font-size: 20px;
+        text-align: justify;
     }
     .about-heading h1{
         font-size: 60px;
