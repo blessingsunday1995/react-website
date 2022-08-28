@@ -30,8 +30,8 @@ const location = useLocation()
             </div>
 <div className="nav">
 <ul>
-  <li  onClick={()=>setActiveNav('/b')}
-     className={activeNav === '/b' ? 'active' : ''}><Link  to='/b'>Traditional</Link></li>
+  <li  onClick={()=>setActiveNav('/')}
+     className={activeNav === '/' ? 'active' : ''}><Link  to='/'>Traditional</Link></li>
 
 
   <li  onClick={()=>setActiveNav('/a')}
@@ -55,7 +55,7 @@ const location = useLocation()
 <AnimatePresence>
 <Routes location={location} key={location.pathname}> 
   <Route path='/a' element={<Agbada/>}/>
-  <Route path='/b' element={<Traditional/>}/>
+  <Route path='/' element={<Traditional/>}/>
   <Route path='/c' element={<Shirt/>}/>
   <Route path='/d' element={<Suit/>}/>
   
