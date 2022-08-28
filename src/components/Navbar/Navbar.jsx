@@ -25,11 +25,11 @@ function Navbar() {
       {toggle?<Icon icon={x} size={50}/>:<Icon icon={menu} size={50}/>}
     </div>
     <ul className='links'>
-      <li>  <a href="#">Home</a></li>
-      <li>  <a href="#about">About</a></li>
-      <li> <a href="#service">Services</a></li>
-      <li>  <a href="#gallery">Gallery</a></li>
-      <li>  <a href="#">Contact</a></li>
+            <li onClick={handleToggle}>  <a href="#">Home</a></li>
+            <li onClick={handleToggle}>  <a href="#about">About</a></li>
+            <li onClick={handleToggle}> <a href="#service">Services</a></li>
+            <li onClick={handleToggle}>  <a href="#gallery">Gallery</a></li>
+            <li onClick={handleToggle}>  <a href="#">Contact</a></li>
      
    
     </ul>
