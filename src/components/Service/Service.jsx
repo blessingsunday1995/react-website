@@ -7,7 +7,7 @@ import shirt from './../../images/shirt.png'
 function Service() {
   return (
     <section id='service'>
-     <div className='conatiner'>
+      <div className='conatiner srvices-conatiner'>
 
      <div className='service-heading'>
 <h1>Our Services</h1>    
@@ -16,8 +16,8 @@ function Service() {
        voluptas asperiores sequi tenetur dolores incidunt 
       enim voluptatem magnam cumque fuga.</h5>
       </div>
-
-<div className='srvices-conatiner'>
+   
+<div className='srvices-contect-conatiner'>
 <div className="card">
   <h3>Traditional Wear</h3>
   <img src={Tra} alt="" />

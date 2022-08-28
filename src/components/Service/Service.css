@@ -1,4 +1,4 @@
-.srvices-conatiner{
+.srvices-contect-conatiner{
 
     display: flex;
     gap: 10px;
@@ -37,13 +37,58 @@
 }
 
 
+   @media screen and (max-width: 1024px) {
+
+       .conatiner.srvices-conatiner {
+           width: var(--containter-width-md);
+           padding: 20px;
+       }
+
+       .srvices-contect-conatiner {
+           flex-direction: column;
+           flex-wrap: nowrap;
+           align-items: center;
+       }
+
+       .service-heading h1 {
+           font-size: 60px;
+
+       }
+
+       .service-heading h5 {
+           font-size: 30px;
+
+       }
+
+       .card {
+           border: 1px solid var(--color-primary);
+           height: max-content;
+           width: 100%;
+           border-radius: 30px;
+           margin: 10px;
+           padding-top: 10px;
+       }
+
+       .card img {
+           margin-top: 20px;
+           border-radius: 20px 20px 20px 20px;
+           width: 100%;
+
+       }
+
+
+
+   }
+
+
+
 @media(max-width: 768px){
 
-    .conatiner{
+    .conatiner.srvices-conatiner{
         width: var(--containter-width-sm);
     }
    
-    .srvices-conatiner{
+    .srvices-contect-conatiner{
        flex-direction: column;
        flex-wrap: nowrap;
        align-items: center;
@@ -79,43 +124,4 @@
       }
     
      
-      @media screen and (max-width: 1024px) {
-    
-        .conatiner{
-            width: var(--containter-width-md);
-        }
-        .srvices-conatiner{
-            flex-direction: column;
-            flex-wrap: nowrap;
-            align-items: center;
-         }
-     
-         .service-heading h1{
-             font-size: 60px;
-            
-         }
-     
-         .service-heading h5{
-             font-size: 30px;
-            
-         }
-         
-         .card{
-             border: 1px solid var( --color-primary);
-             height: max-content;
-             width: 100%;
-             border-radius: 30px;
-             margin: 10px;
-             padding-top: 10px;
-         }
-     
-         .card img{
-             margin-top: 20px;
-             border-radius: 20px 20px 20px 20px;
-             width: 100%;
-         
-         }
-    
    
-    
-    }

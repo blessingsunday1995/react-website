@@ -1,4 +1,4 @@
-.landing-conatiner{
+.conatiner.landing-conatiner{
     display: flex;
     margin: auto;
     justify-content: center;
@@ -40,7 +40,7 @@
     animation: slideFromBottom 1s ease-in;
 }
 
-  /* @keyframes slideFromLeft {
+  @keyframes slideFromLeft {
       0% {
           transform: translateX(-100%);
       }
@@ -80,23 +80,70 @@
       100% {
           transform: translateX(0);
       }
-  } */
+  }
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+   .conatiner.landing-conatiner {
+        width: var(--containter-width-md);
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 250px;
+    }
+
+
+
+    section {
+        height: max-content;
+
+    }
+
+    .landing-text h2 {
+        font-size: 50px;
+    }
+
+    .landing-text h5 {
+        font-size: 40px;
+    }
+
+    .landing-btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 80px;
+
+        border-radius: 30px;
+        padding: 17px;
+        font-size: 30px;
+    }
+
+    .landing-img img {
+        height: 700px;
+       
+        width: 700px;
+        padding: 5px;
+
+    }
+
+}
 
 
 
 
 @media(max-width: 768px){
 
-.conatiner{
+.conatiner.landing-conatiner{
     width: var(--containter-width-sm);
+        flex-direction: column;
+            gap: 50px;
+            padding: 20px;
+            margin-bottom: 0;
+            height: fit-content;
 }
-.landing-conatiner{
-    flex-direction: column;
-    gap: 50px;
-    padding: 20px;
-    height: fit-content;
-   
-}
+
 
  .landing-text h2{
     font-size: 50px;
@@ -140,46 +187,3 @@
 
 
 
-/* 
-  @media screen and (max-width: 1024px) {
-
-    .conatiner{
-        width: var(--containter-width-md);
-    }
-    .landing-conatiner{
-        flex-direction: column;
-        gap: 20px;
-    }
-
-
-    section{
-        height: max-content;
-  
-    }
-
-    .landing-text h2{
-        font-size: 50px;
-    }
-    
-    .landing-text h5{
-        font-size: 40px;
-    }
-    .landing-btn{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 200px;
-        height: 80px;
-
-        border-radius: 30px;
-        padding: 17px;
-        font-size: 30px;
-    }
-    
-.landing-img img{
-    height: 700px;
-    width: 700px;
-    padding: 5px;
-
-}
-
-} */

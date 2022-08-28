@@ -7,7 +7,7 @@ function AboutPage() {
     <section id='about'>
    
     
-<div className='conatiner '>
+      <div className='conatiner about-conatiner '>
   <div className='about-heading'>
 <h1>About Us</h1>    
     <h5>Architecto nobis eos vel nam quidem vitae
@@ -15,7 +15,7 @@ function AboutPage() {
        voluptas asperiores sequi tenetur dolores incidunt 
       enim voluptatem magnam cumque fuga.</h5>
       </div>
-  <div className='about-conatiner'>
+        <div className='about-contect-conatiner'>
 <div className='about-image'>
 <img src={AboutImg} alt="" />
 

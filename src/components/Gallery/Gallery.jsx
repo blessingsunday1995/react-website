@@ -19,7 +19,7 @@ const location = useLocation()
   return (
  
     <section id='gallery'>
-        <div className="conatiner">
+        <div className="conatiner gallery-conatiner">
 
             <div className='gallery-heading'>
                 <h1>Gallery</h1>
