@@ -96,10 +96,10 @@ border: 1px solid var(--color-primary-variant);
     .contact-btn{
             
         margin-top: 10px;
-        width: 300px;
-        height: 90px;
+        width: fit-content;
+        height: fit-content;
         padding: 17px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 30px;
     }
     
