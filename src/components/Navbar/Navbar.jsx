@@ -21,7 +21,7 @@ function Navbar() {
     <div className=' conatiner-nav '>
     <nav className={toggle?'navbar expanded':'navbar'}>
       <div className="tex-logo">
-            <a href='#home'><img src={logo} className='logo' /></a>
+            <a href='#'><img src={logo} className='logo' /></a>
             <a href="#" className='logo-txt'> <h2>H-CODE CLOTHINGS</h2></a>
       </div>
          
