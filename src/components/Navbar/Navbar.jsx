@@ -20,7 +20,12 @@ function Navbar() {
 <div className='conatiner'>
     <div className=' conatiner-nav '>
     <nav className={toggle?'navbar expanded':'navbar'}>
-   <a href='#home'><img src={logo} className='logo'/></a>
+      <div className="tex-logo">
+            <a href='#home'><img src={logo} className='logo' /></a>
+            <a href="#" className='logo-txt'> <h2>H-CODE CLOTHINGS</h2></a>
+      </div>
+         
+          
     <div className='toggle-icon' onClick={handleToggle}>
       {toggle?<Icon icon={x} size={50}/>:<Icon icon={menu} size={50}/>}
     </div>

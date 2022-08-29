@@ -8,6 +8,7 @@ width: var(--containter-width-lg);
     position: fixed;
     display: flex;
     gap: 0.8rem ;
+    padding-bottom: 5px;
   
   }
   
@@ -22,9 +23,21 @@ width: var(--containter-width-lg);
   }
  .logo{
    
-   height: 50px;
+   height: 60px;
   }
-  
+
+
+  .tex-logo{
+   
+    display: flex;
+    gap: 10px;
+   
+  }
+
+    .logo-txt{
+margin-top: 7px;
+
+    }
   .navbar .links{
     list-style: none;
     display: flex;
@@ -70,7 +83,12 @@ width: var(--containter-width-lg);
       
          
        }
+         .logo-txt {
     
+           display: none;
+           
+         }
+              
        .navbar.expanded{
          height: 700px;
          display: flex;

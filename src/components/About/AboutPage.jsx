@@ -23,21 +23,15 @@ function AboutPage() {
 
 <div className='about-text'>
 
-<p>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero
-Saepe fuga
-Voluptates
-Corrupti
-Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.
-
-Repudiandae rerum velit modi et officia quasi facilis
-Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.
-
-Incidunt non veritatis illum ea ut nisi
-Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
-
-Omnis ab quia nemo dignissimos rem eum quos..
-Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse.
- Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+            <p>Here at H-CODE CLOTHINGS We are dedicated to Providing
+               You with the best designs in vogue.Over the years of
+                our Existence our accuracy, reliability and dedication 
+                has Spoken for us.We know the best wears and design for 
+                your next  occasion and we're readily available to 
+                provide you your taste within a short period of time.
+                 Why not try us today and see the difference, we can
+                  bet this with you - You won't want to have any other 
+                  Fashion Designer for yourself.</p>
 
  <a href='#contact' className='btn about-btn'>Contact Us</a>
 </div>
