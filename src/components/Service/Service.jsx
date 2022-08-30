@@ -11,10 +11,7 @@ function Service() {
 
      <div className='service-heading'>
 <h1>Our Services</h1>    
-    <h5>Architecto nobis eos vel nam quidem vitae
-      temporibus voluptates qui hic deserunt iusto omnis nam
-       voluptas asperiores sequi tenetur dolores incidunt 
-      enim voluptatem magnam cumque fuga.</h5>
+    <h4>We provide you with superb wears such as</h4>
       </div>
    
 <div className='srvices-contect-conatiner'>

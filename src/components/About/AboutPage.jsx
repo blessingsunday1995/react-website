@@ -10,10 +10,7 @@ function AboutPage() {
       <div className='conatiner about-conatiner '>
   <div className='about-heading'>
 <h1>About Us</h1>    
-    <h5>Architecto nobis eos vel nam quidem vitae
-      temporibus voluptates qui hic deserunt iusto omnis nam
-       voluptas asperiores sequi tenetur dolores incidunt 
-      enim voluptatem magnam cumque fuga.</h5>
+    
       </div>
         <div className='about-contect-conatiner'>
 <div className='about-image'>

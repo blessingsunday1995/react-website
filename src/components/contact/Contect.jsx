@@ -28,8 +28,12 @@ const form = useRef();
 
   return (
     <section id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <div className="contact-heading">
+        <h1>Contact Me</h1>
+        <h5>Get in Touch</h5>
+
+      </div>
+     
 <div className='conatiner contact_conatiner' >
 <div className='contact_options'>
 

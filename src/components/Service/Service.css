@@ -7,7 +7,16 @@
   flex-wrap: wrap;
 }
 
+ .service-heading h1 {
+     font-size: 60px;
 
+ }
+
+  .service-heading h4 {
+      font-size: 20px;
+      font-weight: 400;
+
+  }
 .card{
     border: 1px solid var( --color-primary);
     width: fit-content;
@@ -20,6 +29,10 @@
     transition: var( --transition);
 }
 
+  .card h3 {
+     font-size: 25px;
+  
+  }
 
 .card:hover{
     background: var( --color-bg-variant);
@@ -69,6 +82,8 @@
            padding-top: 10px;
        }
 
+       
+
        .card img {
            margin-top: 20px;
            border-radius: 20px 20px 20px 20px;
@@ -95,12 +110,12 @@
     }
 
     .service-heading h1{
-        font-size: 60px;
+        font-size: 40px;
        
     }
 
-    .service-heading h5{
-        font-size: 30px;
+    .service-heading h4{
+        font-size: 18px;
        
     }
     

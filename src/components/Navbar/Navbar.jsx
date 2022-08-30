@@ -34,7 +34,7 @@ function Navbar() {
             <li onClick={handleToggle}>  <a href="#about">About</a></li>
             <li onClick={handleToggle}> <a href="#service">Services</a></li>
             <li onClick={handleToggle}>  <a href="#gallery">Gallery</a></li>
-            <li onClick={handleToggle}>  <a href="#">Contact</a></li>
+            <li onClick={handleToggle}>  <a href="#contact">Contact</a></li>
      
    
     </ul>

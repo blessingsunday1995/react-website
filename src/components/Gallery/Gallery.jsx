@@ -23,9 +23,7 @@ const location = useLocation()
 
             <div className='gallery-heading'>
                 <h1>Gallery</h1>
-                 <h5>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur
-                     eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem
-                     id enim officiis sunt deserunt esse soluta consequatur quaerat</h5>
+                 <h5>Here is our gallery, explore some of our amazing outfits</h5>
 
             </div>
 <div className="nav">

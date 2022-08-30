@@ -3,24 +3,31 @@
     margin: auto;
     justify-content: center;
     height: 800px;
+    
    
 }
 
 .landing-text{
     color: #fff;
-    padding-top: 150px;
-    
+    padding-top: 250px;
+    font-size: 50px;
 
 }
 
-.landing-text h2{
-    font-size: 40px;
+.landing-text h5,h3{
+    
     animation: slideFromLeft 1s ease-in;
 }
 
 .landing-text h5{
-    font-size: 20px;
-    animation: slideFromLeft 1s ease-in;
+    font-size: 30px;
+  
+}
+
+.landing-text h3 {
+    font-size: 60px;
+
+
 }
 
 .landing-img{
@@ -97,7 +104,12 @@
 
     }
 
+.landing-text {
+   
+    padding-top: 80px;
+    
 
+}
 
     section {
         height: max-content;
@@ -145,6 +157,7 @@
             padding: 20px;
             margin-bottom: 0;
             height: fit-content;
+           
 }
 
 
