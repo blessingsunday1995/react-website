@@ -40,9 +40,10 @@ function Navbar() {
     </ul>
     
       <ul className='links social-nav'>
-     <li><a> <Icon icon={twitter} size={28}/></a></li>
-    <li> <a><Icon icon={facebook} size={28}/></a> </li>
-     <li> <a><Icon icon={instagram} size={28}/></a></li>
+            <li> <a href='https://www.instagram.com/hc_clothing_001/' target='blank'><Icon icon={instagram} size={28} /></a></li>
+            <li><a href='#'> <Icon icon={twitter} size={28}/></a></li>
+    <li> <a href='#'><Icon icon={facebook} size={28}/></a> </li>
+     
       </ul>
       
 </nav>
