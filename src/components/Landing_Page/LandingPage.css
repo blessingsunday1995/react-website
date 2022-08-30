@@ -45,6 +45,7 @@
 .landing-btn{
     margin-top: 10px;
     animation: slideFromBottom 1s ease-in;
+    border-radius: 20px;
 }
 
   @keyframes slideFromLeft {
