@@ -10,7 +10,7 @@ function LandingPage() {
 <div className='landing-text'>
           <h3>Welcome to H-Code CLOTHINGS</h3>
 <h5>Dwelling Place of Extra-ordinary Wears</h5>
-<a href='#contact' className='btn landing-btn'>Get Started</a>
+          <a href='#contact' className='btn landing-btn'>Get in Touch</a>
 </div>
 
 <div className='landing-img'>
