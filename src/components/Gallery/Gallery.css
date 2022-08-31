@@ -14,6 +14,11 @@
     width: 100%;
     
 }
+
+.conatiner.gallery-conatiner .more {
+border-bottom: 3px solid #fff;
+font-size: 30px;
+}
 .nav ul{
     display: flex;
     gap: 10px;
