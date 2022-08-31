@@ -59,7 +59,7 @@ const location = useLocation()
   
    </Routes> 
    </AnimatePresence>
-   <a className='more' href="">View More</a>
+           <a className='more' href="https://www.instagram.com/hc_clothing_001/" target= 'blank'>View More</a>
         </div>
         </section>
       

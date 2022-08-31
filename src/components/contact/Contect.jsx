@@ -55,8 +55,8 @@ const form = useRef();
 <article className="contact_option"> 
 <BsWhatsapp className='contact_option-icon'/>
 <h4>WhatsApp</h4>
-<h5>+2348131971666</h5>
-<a href="https://wa.me/message/XTHEECKH6DS4F1" target="_blank">Send a message</a>
+            <h5>+2347030234254</h5>
+            <a href="https://www.instagram.com/stories/highlights/18115798597274852/" target="_blank">Send a message</a>
 </article>
 
 </div>
