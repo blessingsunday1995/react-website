@@ -59,7 +59,7 @@ const location = useLocation()
   
    </Routes> 
    </AnimatePresence>
-
+   <a href="">View More</a>
         </div>
         </section>
       
