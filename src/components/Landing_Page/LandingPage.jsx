@@ -8,7 +8,7 @@ function LandingPage() {
     <div className='conatiner landing-conatiner'>
 
 <div className='landing-text'>
-<h3>Welcome to H-Code </h3>
+          <h3>Welcome to H-Code CLOTHINGS</h3>
 <h5>Dwelling Place of Extra-ordinary Wears</h5>
 <a href='#contact' className='btn landing-btn'>Get Started</a>
 </div>
