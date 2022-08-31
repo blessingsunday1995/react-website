@@ -21,8 +21,8 @@ function Navbar() {
     <div className=' conatiner-nav '>
     <nav className={toggle?'navbar expanded':'navbar'}>
       <div className="tex-logo">
-            <a href='#'><img src={logo} className='logo' /></a>
-            <a href="#" className='logo-txt'> <h2>H-CODE CLOTHINGS</h2></a>
+            <a href='#home'><img src={logo} alt="" className='logo' /></a>
+            <a href="#home" className='logo-txt'> <h2>H-CODE CLOTHINGS</h2></a>
       </div>
          
           
@@ -30,7 +30,7 @@ function Navbar() {
       {toggle?<Icon icon={x} size={50}/>:<Icon icon={menu} size={50}/>}
     </div>
     <ul className='links'>
-            <li onClick={handleToggle}>  <a href="#">Home</a></li>
+            <li onClick={handleToggle}>  <a href="#home">Home</a></li>
             <li onClick={handleToggle}>  <a href="#about">About</a></li>
             <li onClick={handleToggle}> <a href="#service">Services</a></li>
             <li onClick={handleToggle}>  <a href="#gallery">Gallery</a></li>
@@ -41,8 +41,8 @@ function Navbar() {
     
       <ul className='links social-nav'>
             <li> <a href='https://www.instagram.com/hc_clothing_001/' target='blank'><Icon icon={instagram} size={28} /></a></li>
-            <li><a href='#'> <Icon icon={twitter} size={28}/></a></li>
-    <li> <a href='#'><Icon icon={facebook} size={28}/></a> </li>
+            <li><a href='#n'> <Icon icon={twitter} size={28}/></a></li>
+    <li> <a href='#n'><Icon icon={facebook} size={28}/></a> </li>
      
       </ul>
       

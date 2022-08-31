@@ -14,7 +14,7 @@ function LandingPage() {
 </div>
 
 <div className='landing-img'>
-<img src={Lad}/>
+<img src={Lad} alt=""/>
 
 </div>
 

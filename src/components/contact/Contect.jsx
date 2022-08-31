@@ -4,7 +4,6 @@ import { BsInstagram } from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import  {useRef} from 'react';
 import emailjs from 'emailjs-com'
-import { instagram } from 'react-icons-kit/icomoon/instagram'
 import './contact.css'
 
 
@@ -42,21 +41,21 @@ const form = useRef();
             <SiGmail className='contact_option-icon'/> 
 <h4>Gmail</h4>
 <h5>blessing.sunday38@yahoo.com</h5>
-<a href="mailto:blessing.sunday38@yahoo.com" target="_blank">Send a message</a>
+<a href="mailto:blessing.sunday38@yahoo.com" target="blank">Send a message</a>
 </article>
 
 <article className="contact_option"> 
 <BsInstagram className='contact_option-icon'/>
             <h4>Instagram</h4>
             <h5>H-Code CLOTHINGS</h5>
-            <a href="https://www.instagram.com/direct/t/340282366841710300949128194028010681907" target="_blank">Send a message</a>
+            <a href="https://www.instagram.com/direct/t/340282366841710300949128194028010681907" target="blank">Send a message</a>
 </article>
 
 <article className="contact_option"> 
 <BsWhatsapp className='contact_option-icon'/>
 <h4>WhatsApp</h4>
             <h5>+2347030234254</h5>
-            <a href="https://www.instagram.com/stories/highlights/18115798597274852/" target="_blank">Send a message</a>
+            <a href="https://www.instagram.com/stories/highlights/18115798597274852/" target="blank">Send a message</a>
 </article>
 
 </div>
