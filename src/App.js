@@ -5,7 +5,7 @@ import Service from "./components/Service/Service";
 import Gallery from "./components/Gallery/Gallery";
 import Contact from './components/contact/Contect';
 import Footer from './components/footer/Footer'
-
+import './App.css'
 
 
 function App() {
