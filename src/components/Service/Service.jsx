@@ -15,6 +15,7 @@ function Service() {
       </div>
    
 <div className='srvices-contect-conatiner'>
+  
 <div className="card">
   <h3>Traditional Wear</h3>
   <img src={Tra} alt="" />
